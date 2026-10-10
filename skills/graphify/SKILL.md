@@ -1,6 +1,6 @@
 ---
 name: graphify
-description: Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.
+description: Use when explicitly invoked or when graph discovery would help resolve uncertain dependencies, architecture, file relationships, or project content. Focused tasks with known source files or symbols can start with direct inspection; an existing graph alone does not require invoking this skill. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.
 ---
 
 # /graphify <!-- res_e92211b0a74b8ca29166de43 -->
