@@ -1,0 +1,29 @@
+{
+  "claude-PreToolUse-0-0": {  // res_170252ac623a14c6dfe4a215
+    "command": "graphify hook-guard search",
+    "matcher": "Bash|Grep",
+    "harnesses": [
+      "claude"
+    ],
+    "extra": {
+      "timeout": 10
+    }
+  },
+  "claude-PreToolUse-1-0": {  // res_753987af5b75c1c515424073
+    "command": "graphify hook-guard read",
+    "matcher": "Read|Glob",
+    "harnesses": [
+      "claude"
+    ],
+    "extra": {
+      "timeout": 10
+    }
+  },
+  "codex-PreToolUse-0-0": {  // res_741081e6560aa6199ec209f9
+    "command": "graphify hook-check",
+    "matcher": "Bash",
+    "harnesses": [
+      "codex"
+    ]
+  }
+}
