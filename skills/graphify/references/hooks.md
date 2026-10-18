@@ -20,13 +20,13 @@ If a post-commit hook already exists, graphify appends to it rather than replaci
 
 ## For native CLAUDE.md integration <!-- res_2d71a5b83a3746f72c5ea2ac -->
 
-Run once per project to make graphify always-on in Claude Code sessions:
+Run once per project to enable native Graphify integration in Claude Code sessions:
 
 ```bash
 graphify claude install
 ```
 
-This writes a `## graphify` section to the local `CLAUDE.md` that instructs Claude to check the graph before answering codebase questions and rebuild it after code changes. No manual `/graphify` needed in future sessions.
+This writes a `## graphify` section to the local `CLAUDE.md`. After installation, align the generated section with the shared Graphify policy in `AGENTS.md`; use that policy as the authority for source inspection, optional lookups, denial fallback, and refresh timing. No manual `/graphify` needed in future sessions.
 
 ```bash
 graphify claude uninstall  # remove the section
