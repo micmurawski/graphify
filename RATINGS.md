@@ -1,16 +1,16 @@
-# graphify 0.9.71
+# graphify 0.9.72
 
-Revision `0.9.71@rev_a2edc8fe984f9d3d3a84f37b`.
+Revision `0.9.72@rev_cce010e9643838fd4c04785d`.
 
-- context: AGENTS.md `context/AGENTS.md#L1-L12` [res_e86a9cc498cf5701a55a0553]
-  - graphify `context/AGENTS.md#L1-L12` [res_7d540630d9c3da46710b4fca]
+- context: AGENTS.md `context/AGENTS.md#L1-L14` [res_e86a9cc498cf5701a55a0553]
+  - graphify `context/AGENTS.md#L1-L14` [res_7d540630d9c3da46710b4fca]
 - context: CLAUDE.md `context/CLAUDE.md#L1-L3` [res_428a3cde8685180f9b87e325]
   - graphify `context/CLAUDE.md#L1-L3` [res_4f27e072e20215e9fb87e0c1]
-- hook: claude-PreToolUse-0-0 `hooks.json#L2-L11` [res_170252ac623a14c6dfe4a215]
-- hook: claude-PreToolUse-1-0 `hooks.json#L12-L21` [res_753987af5b75c1c515424073]
+- hook: claude-PreToolUse-0-0 `hooks.json#L2-L11` [res_170252ac623a14c6dfe4a215] (harmful: 1, neutral: 0, helpful: 0)
+- hook: claude-PreToolUse-1-0 `hooks.json#L12-L21` [res_753987af5b75c1c515424073] (harmful: 1, neutral: 0, helpful: 0)
 - hook: codex-PreToolUse-0-0 `hooks.json#L22-L28` [res_741081e6560aa6199ec209f9]
 - skill_file: graphify/.graphify_version `skills/graphify/.graphify_version#L1` [res_8073bdc0d7a31896cd0f3a7a]
-- skill: graphify `skills/graphify/SKILL.md#L1-L719` [res_efbeae0a1923947a8c4161b3]
+- skill: graphify `skills/graphify/SKILL.md#L1-L719` [res_efbeae0a1923947a8c4161b3] (harmful: 0, neutral: 0, helpful: 4)
   - /graphify `skills/graphify/SKILL.md#L6-L719` [res_e92211b0a74b8ca29166de43]
     - Usage `skills/graphify/SKILL.md#L10-L44` [res_a852fe1f08070fdfb7ddbbb0] (harmful: 0, neutral: 0, helpful: 2)
     - What graphify is for `skills/graphify/SKILL.md#L45-L48` [res_6829627845c22cbb1b83e0ab]
