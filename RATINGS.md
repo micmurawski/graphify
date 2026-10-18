@@ -1,6 +1,6 @@
-# graphify 0.9.70
+# graphify 0.9.71
 
-Revision `0.9.70@rev_c89bb383e88826db23187ab8`.
+Revision `0.9.71@rev_a2edc8fe984f9d3d3a84f37b`.
 
 - context: AGENTS.md `context/AGENTS.md#L1-L12` [res_e86a9cc498cf5701a55a0553]
   - graphify `context/AGENTS.md#L1-L12` [res_7d540630d9c3da46710b4fca]
