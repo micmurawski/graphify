@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "name": "fastapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "ignore": [
     "skill:evolve"
   ]
