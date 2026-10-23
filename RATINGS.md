@@ -1,11 +1,11 @@
-# fastapi 1.0.1
+# fastapi 1.0.2
 
-Revision `1.0.1@rev_41ace105b820ff8447fcb282`.
+Revision `1.0.2@rev_cf99388e253c9a5aea1cf9e2`.
 
 - context: CLAUDE.md `context/CLAUDE.md#L1-L9` [res_428a3cde8685180f9b87e325]
   - graphify `context/CLAUDE.md#L1-L9` [res_4f27e072e20215e9fb87e0c1]
-- hook: claude-PreToolUse-0-0 `hooks.json#L2-L11` [res_170252ac623a14c6dfe4a215] (harmful: 0, neutral: 4)
-- hook: claude-PreToolUse-1-0 `hooks.json#L12-L21` [res_753987af5b75c1c515424073] (harmful: 0, neutral: 4)
+- hook: claude-PreToolUse-0-0 `hooks.json#L2-L11` [res_170252ac623a14c6dfe4a215]
+- hook: claude-PreToolUse-1-0 `hooks.json#L12-L21` [res_753987af5b75c1c515424073] (harmful: 2, neutral: 10, helpful: 0)
 - skill_file: graphify/.graphify_version `skills/graphify/.graphify_version#L1` [res_8073bdc0d7a31896cd0f3a7a]
 - skill: graphify `skills/graphify/SKILL.md#L1-L719` [res_efbeae0a1923947a8c4161b3]
   - /graphify `skills/graphify/SKILL.md#L6-L719` [res_e92211b0a74b8ca29166de43]
